@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on StatSnips</title>
+    <link>https://statsnips.github.io/tags/mac/</link>
+    <description>Recent content in Mac on StatSnips</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017-2018 StatSnips. Distributed Under a MIT License.</copyright>
+    <lastBuildDate>Tue, 08 Aug 2017 10:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://statsnips.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting Started with JHPCE</title>
+      <link>https://statsnips.github.io/2017/08/08/getting-started-with-jhpce/</link>
+      <pubDate>Tue, 08 Aug 2017 10:00:00 -0500</pubDate>
+      
+      <guid>https://statsnips.github.io/2017/08/08/getting-started-with-jhpce/</guid>
+      <description>What is JHPCE? JHPCE or the Joint High-Performance Computing Exchange is a computation resource available to members at the Johns Hopkins Medicial Institute (JHMI). Several research groups across the School of Public Health and School of Medicine tap into the power of JHPCE to run computationally expensive analyses - our transplant epidemiology group included.
+The JHPCE introduction to new users describes some use cases. This blog will be a brief introduction to getting your system ready to log onto the JHPCE cluster to use Stata-MP.</description>
+    </item>
+    
+  </channel>
+</rss>

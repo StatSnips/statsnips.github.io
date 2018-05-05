@@ -1,0 +1,93 @@
+baseurl = "https://statsnips.github.io"
+relativeurls = true
+languageCode = "en-us"
+title = "StatSnips"
+theme = "blackburn"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+copyright = "&copy; 2017-2018 StatSnips. Distributed Under a MIT License."
+canonifyurls = true
+paginate = 5
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+  author = "authors"
+
+[[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 2
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+  name = "Archive"
+  pre = "<i class='fa fa-archive fa-fw'></i>"
+  weight = 3
+  identifier = "post"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  pre = "<i class='fa fa-tags fa-fw'></i>"
+  weight = 4
+  identifier = "tag"
+  url = "/tags/"
+[[menu.main]]
+  name = "Authors"
+  pre = "<i class='fa fa-pencil fa-fw'></i>"
+  weight = 5
+  identifier = "tag"
+  url = "/authors/"
+[[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 6
+    identifier = "contact"
+    url = "/contact/"
+[[menu.main]]
+    name = "Blog GitHub"
+    pre = "<i class='fa fa-github fa-fw'></i>"
+    identifier = "github"
+    weight = 7
+    url = "https://statsnips.github.io"
+
+[params]
+    description = ""
+    disqusShortname = "statsnips"
+    author = "Alvin Thomas"
+    disqus = "statsnips"
+    googleAnalytics = "UA-99083233-1"
+    brand = '<img src="https://raw.githubusercontent.com/StatSnips/statsnips.github.io/master/images/logo.png" height=25 </img>'
+    subtitle="Code snippets and musings from statistically-inclined epidemiologists"
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+    dateFormat = "02 Jan 2006"
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "alvinthomas13"
+
+  # SNS career oriented
+  linkedin = "alvinthomas13"
+
+  # Techie
+  github = "alvinthomas"
+  gitlab = "alvinthomas"
+  stackoverflow = "7292351"
